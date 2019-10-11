@@ -16,17 +16,17 @@ module.exports = function zeros(expression) {
     if (/!!/.test(fact[i]) === true) {
       console.log('!');
       console.log(fact[i]);
-      zero=zero + Math.floor(factorial[i]/10);
+      zero=zero + Math.ceil(factorial[i]/10);
 
     } else if (/!!/.test(fact[i]) === true) {
       console.log('!!');
       console.log(factorial[i]);
-      zero=zero + Math.floor(factorial[i]/5);
+      zero=zero + Math.ceil(factorial[i]/5);
     }
 
   };
   console.log(zero);
-  
+
   return zero;
 
 }
