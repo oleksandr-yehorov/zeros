@@ -18,6 +18,10 @@ module.exports = function zeros(expression) {
     };
   };
   
+  let arr = [];
+
+
+
   return zeros;
 
 }
