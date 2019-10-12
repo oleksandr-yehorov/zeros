@@ -8,6 +8,16 @@ module.exports = function zeros(expression) {
   let singleFactorialArray = [];
   let doubleFactorialArray = [];
 
+  for (let i = 0; i < arrayFactorial.length; i++) {
+    if (arrayFactorial[i].includes('!!')) {
+      let double = parseFloat(arrayFactorial[i]);
+      doubleFactorialArray.push(double);
+    } else {
+      let single = parseFloat(arrayFactorial[i]);
+      singleFactorialArray.push(single);
+    };
+  };
+  
   return zeros;
 
 }
