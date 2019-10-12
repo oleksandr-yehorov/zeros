@@ -37,6 +37,10 @@ module.exports = function zeros(expression) {
     };                    
   };
 
+
+  let zeros = 0;
+
+
   return zeros;
 
 }
