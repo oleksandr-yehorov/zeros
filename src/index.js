@@ -21,6 +21,14 @@ module.exports = function zeros(expression) {
   let arr = [];
 
 
+  for(let i = 0; i<singleFactorialArray.length; i++) {          
+    let x = singleFactorialArray[i];
+    while (x > 1){
+      arr.push(x);
+      x--;  // 5! = 5*4*3*2*1
+    };
+  };
+
 
   return zeros;
 
