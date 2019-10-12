@@ -29,6 +29,13 @@ module.exports = function zeros(expression) {
     };
   };
 
+  for(let j = 0; j<doubleFactorialArray.length; j++){          
+    let y = doubleFactorialArray[j];
+    while (y >= 2){
+      arr.push(y); 
+      y -=2;  // 10!! = 10*8*6*4*2
+    };                    
+  };
 
   return zeros;
 
