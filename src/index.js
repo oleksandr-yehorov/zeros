@@ -39,7 +39,18 @@ module.exports = function zeros(expression) {
 
 
   let zeros = 0;
-
+  arr.map( num => {    
+    if(num % 5 === 0 ){
+      x = num;
+      while(x % 5 === 0){ 
+        x=x/5 ;                 
+        zeros++;
+      }
+    } 
+    if(arr.includes(2) === false) {
+      zeros = 0;
+    }
+  });   
 
   return zeros;
 
